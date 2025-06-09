@@ -16,9 +16,9 @@ export default function HomePage() {
   <h1 className="text-white text-2xl font-semibold">SafeZone</h1>
   <nav className="flex items-center gap-6 text-yellow-100 text-sm">
     <a href="/QuemSomos" className="hover:underline">Quem Somos</a>
-    <a href="#" className="hover:underline">Mapas/Dados</a>
-    <a href="#" className="hover:underline">Alertas</a>
-    <div className="relative">
+    <a href="/mapa" className="hover:underline">Mapas/Dados</a>
+    <a href="/noticias" className="hover:underline">Noticias</a>
+    {/* <div className="relative">
       <img
         src="/image 1.png"
         alt="Buscar"
@@ -30,7 +30,7 @@ export default function HomePage() {
       className="pl-10 pr-4 py-1 rounded-md text-black text-sm"
       disabled
       />
-    </div>
+    </div> */}
       <Link href="/cadastro">
         <img
           src="/image 3.png"
@@ -45,12 +45,15 @@ export default function HomePage() {
       {/* Conteúdo central */}
       <main className="relative z-10 flex flex-col items-center justify-center text-center h-[80%] px-4 text-white">
         <h2 className="text-2xl md:text-3xl font-bold text-yellow-100 mb-4">
-          Porque segurança não é sorte é informação.
+        Porque segurança não é sorte é informação.
         </h2>
         <p className="text-lg md:text-xl mb-6">Mantenha-se protegido com o SafeZone.</p>
+
+        <Link href="/QuemSomos">
         <button className="bg-cyan-400 text-white px-6 py-2 rounded-full hover:bg-cyan-500 transition">
           Saiba mais
         </button>
+        </Link>
       </main>
     </div>
   )

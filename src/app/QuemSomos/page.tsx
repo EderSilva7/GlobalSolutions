@@ -5,15 +5,19 @@ import Link from 'next/link'
 export default function QuemSomos() {
   return (
     <div className="min-h-screen bg-[#011520] text-white px-6 py-12">
-      {/* Logo e voltar à home */}
-      <div className="mb-12 flex justify-between items-center">
-        <button className="bg-[#11786F] text-white px-6 py-2 rounded-full text-xl font-semibold">
-          SafeZone
-        </button>
-        <Link href="/" className="text-[#11786F] hover:underline font-medium">
-          Voltar para a Home
+     
+
+
+        <div className="mb-12 flex justify-center">
+        <Link href="/">
+            <button
+            className="bg-[#11786F] text-white px-6 py-2 rounded-full text-xl font-semibold transition-transform transform hover:scale-105 hover:bg-[#0e615a] cursor-pointer"
+            >
+            SafeZone
+            </button>
         </Link>
-      </div>
+        </div>
+
 
       {/* Título */}
       <h2 className="text-3xl font-semibold text-center text-[#11786F] mb-12 border-b border-[#11786F] w-fit mx-auto pb-1">

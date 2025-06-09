@@ -36,9 +36,9 @@ export default function Cadastro() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/cadastro.svg')" }}
+      style={{ backgroundImage: "url('/vulcao.webp')" }}
     >
-        <div className="bg-gray-600 bg-opacity-95 p-8 pb-6 rounded-lg w-full max-w-md shadow-lg text-white">
+        <div className=" backdrop-blur-md p-8 pb-6 rounded-lg w-full max-w-md shadow-lg text-white">
 
         
         <h1 className="text-3xl font-bold text-center text-cyan-400 mb-6">Cadastro</h1>
